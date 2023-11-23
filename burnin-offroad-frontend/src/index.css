@@ -1,0 +1,16 @@
+.ct {
+  border: none;
+}
+.ct,
+.ct:focus,
+.ct:active {
+  outline: 2px solid red !important;
+}
+.h-form {
+  padding: 100px 500px !important;
+}
+@media screen and (max-width: 600px) {
+  .h-form {
+    padding: 50px !important;
+  }
+}

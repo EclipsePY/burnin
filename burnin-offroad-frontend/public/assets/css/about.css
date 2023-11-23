@@ -1,0 +1,52 @@
+#hero-about {
+    padding-top: 6em;
+    background-image: url("../images/bg-red-blur.png");
+    background-repeat: repeat !important;
+    background-size: 50%;
+}
+
+
+
+#hero-about .custom-btn {
+    padding: 1em 5em;
+    margin: 1em;
+    transition: 0.3s ease !important;
+}
+
+.buttons-container {
+    background-image: url("../images/red-car-on-road-art.jpg");
+    padding: 9.5em 0 !important;
+    background-position: bottom;
+}
+
+.buttons-container .btn:hover {
+    background-color: #FFF;
+    border-color: #E51C1A;
+    color: #E51C1A;
+    transition: 0.3s ease !important;
+}
+
+.btn.active {
+    background-color: #FFF;
+    border-color: #E51C1A;
+    color: #E51C1A;
+}
+.btn.active:focus,
+.btn.active:active {
+    background-color: #FFF !important;
+    border-color: #E51C1A !important;
+    color: #E51C1A !important;
+}
+.btn.active:hover {
+    background-color: #E51C1A;
+    color: #fff ;
+}
+.row .row {
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width:576px) {
+    #hero-about {
+        padding-top: 4em;
+    }
+}
